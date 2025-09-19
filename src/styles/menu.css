@@ -1,0 +1,15 @@
+@import url("../styles/design_system.css");
+
+.menu--section {
+    width: 100%;
+}
+
+.menu--container {
+    width: 100%;
+    background-color: var(--white);
+    padding: 2rem;
+}
+
+.menu--logo {
+    height: calc(64 / 16 * 1rem);
+}

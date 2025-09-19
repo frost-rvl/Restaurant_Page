@@ -1,0 +1,98 @@
+ <section class="column">
+     <div>
+         <h1>Yummy Nouilles</h1>
+         <p>
+             Les nouilles les plus <strong>yummy</strong> de tout
+             Paris
+         </p>
+         <a href="#" class="cta">CLICK & COLLECT</a>
+     </div>
+     <img src="./images/Logo XL.svg" />
+ </section>
+ <section class="column">
+     <h2>NOS ADRESSES</h2>
+     <div class="column">
+         <div class="column">
+             <img
+                 src="./images/adresses/Facade_Yummy_Nouille_1_1_20.png"
+                 alt="Yummy Noddle de Lancry"
+             />
+             <em>Yummy Noodle</em>
+             <address>
+                 185 rue de Lancry <br />
+                 75010 Paris
+             </address>
+         </div>
+         <div class="column">
+             <img
+                 src="./images/adresses/Facade_Yummy_Nouille_2_1_18.png"
+                 alt="Yu Noodle My de Saint-Guillaume"
+             />
+             <em>Yu Noodle My</em>
+             <address>
+                 350 rue Saint-Guillaume <br />
+                 75007 Paris
+             </address>
+         </div>
+         <div class="column">
+             <img
+                 src="./images/adresses/Facade_Yummy_Nouille_3_1_34.png"
+                 alt="Les Yummy Nouilles de Maire"
+             />
+             <em>Les Yummy Nouilles</em>
+             <address>
+                 208 rue au Maire <br />
+                 75003 Paris
+             </address>
+         </div>
+     </div>
+ </section>
+ <section class="cta--section">
+     <p>Commandez maintenant !</p>
+     <a href="#" class="cta">CLICK & COLLECT</a>
+ </section>
+ <section class="column">
+     <h2>NOTRE SAVOIR_FAIRE</h2>
+     <p>
+         Depuis près de 10 ans maintenant, nous partageons avec vous
+         les meilleures recettes. Nos plats ont tous été conçus, et
+         affinés au fil des années et des goûts. Nous vous apportons
+         le meilleur de l’Asie de l’Est en plein coeur de Paris.
+         Chaque année, nous reprenons tous nos plats pour les
+         améliorer, les modifier et qu’ils vous plaisent toujours
+         plus. Nous espérons que vous vous régalerez en dégustant nos
+         plats.
+     </p>
+ </section>
+ <section class="column">
+     <h2>RETROUVEZ_NOUS SUR LES RÉSEAUX SOCIAUX</h2>
+     <div class="grid--social_images">
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 1.png"
+         />
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 2.png"
+         />
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 3.png"
+         />
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 4.png"
+         />
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 5.png"
+         />
+         <img
+             src="./images/social_media_photos/Yummy Nouilles img 6.png"
+         />
+     </div>
+ </section>
+ <section class="column">
+     <h2>CONTACTEZ-NOUS</h2>
+     <p>
+         Vous souhaitez poser une question, nous faires un feedback,
+         ou tout simplement nous contacter ? Écrivez-nous à
+         <em>yummy@noodles.fr</em> ou appelez nous au
+         <em>01 13 86 23 42</em>
+     </p>
+ </section>

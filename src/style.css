@@ -1,0 +1,191 @@
+/*Import design system*/
+@import url("./styles/design_system.css");
+
+/*Reset CSS*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button + button {
+    margin-left: 1em;
+}
+
+h2,
+button {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: calc(20 / 16 * 1rem);
+}
+
+h2,
+button:hover,
+button:focus {
+    text-decoration: var(--red) underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.2em;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+header {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2em auto 3em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    margin-right: 1em;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: calc(40 / 16 * 1rem);
+    margin-bottom: 0.5em;
+}
+
+p,
+em,
+address,
+ul,
+li {
+    font-family: "Montserrat";
+}
+
+em {
+    font-weight: 600;
+}
+
+strong {
+    color: var(--red);
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+#content {
+    min-height: 70vh;
+}
+
+.cta {
+    display: block;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Bebas Neue";
+    font-size: calc(20 / 16 * 1rem);
+    padding: 0.5em 4em;
+    margin: 1em auto;
+    width: max-content;
+}
+
+.cta--section {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background-color: var(--red);
+    padding: 1em 2em;
+}
+
+.cta--section p {
+    color: var(--white);
+}
+
+section + section {
+    margin-top: 3em !important;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 1em;
+}
+
+.grid--social_images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer {
+    background-color: var(--black);
+    padding: 4em;
+}
+
+footer a {
+    margin-left: 1em;
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        width: 80%;
+    }
+    header {
+        width: 80%;
+    }
+    nav {
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cta--section {
+        width: 100%;
+        margin-left: 0;
+        background-color: var(--red);
+        padding: 1em 2em;
+    }
+}
